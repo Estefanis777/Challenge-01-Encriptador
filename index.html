@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recet.css">
+
+    <title>Encriptador</title>
+</head>
+	<body>
+		
+		<header>
+			<img src="imagenes/Vector.png" alt="imagen logo de Alura" class="logo">
+		</header>
+
+		<main>
+
+			<section class="seccion1">
+				 <textarea class="input-texto" placeholder="Ingrese el texto aquí"  cols="30" rows="15"></textarea>
+            	<div id="div-desaparece">
+                <h6 class="informacion">*Solo letras minúsculas y sin acentos ni caracteres especiales.</h6>
+            	</div>
+				<div class="contenedor-botones">
+				 <button class="btn-encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+				</div>
+				
+			</section>
+			<section class="seccion2">
+				<div class="contenedor-munieco">
+					<img src="imagenes/Muneco.png" alt="munieco de Alura">
+				</div>
+				<div class="contenedor-h3">
+					Ningun mensaje fue encontrado
+				</div>
+				<div class="contenedor-parrafo">
+					<p>Ingresa el texto que desea encriptar y desencriptar</p>
+				</div>
+
+				<div class="contenedor-resultado ">
+				
+					<h3>Mensaje Encriptado o Desencriptado:</h3>
+					<textarea class="mensaje" ></textarea>
+				</div>
+				<div  class="contenedor-copiar">
+					<button class="btn-copiar" value="Copiar" onclick="copiar()">Copiar</button>
+					
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer>
+			<div class="informacion">
+		<p>Alura, todo los derechos reservado</p>
+		 
+		 <a href=https://github.com/Estefanis777><img class="logo-github" src="imagenes/github.png" alt="Logo de GitHub"></a>
+        
+        <a href="https://www.linkedin.com/in/estefanis-marlen-crespo-ddw"><img class="logo-linkedin" src="imagenes/linkedin.png" alt="Logo de LinkedIn"></a>
+        
+        <p class="copyright" >&copy Copyright~2022</p>
+        </div>
+		</footer>
+
+		<script src="script.js"></script>
+
+
+	</body>
+
+
+
+</html>
